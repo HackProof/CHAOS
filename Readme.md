@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:a82da8,100:da8f00&height=230&section=header&text=This%20is%20CHAOS%20Repository%20!&fontAlign=60&fontAlignY=40&fontSize=50&fontColor=ffffff)
 
-# ChibiOS-based High-Assurance Operating System
+# ChibiOS-based High-Assurance Operating System Project
 #### 관련 프로젝트 명: 고등급(EAL6 이상)보안 마이크로커널 개발
 ###### (영문 명: Development of High-Assurance(>=EAL6) Secure Microkernel)
 본 과제는 ISO 15408, IEC 61508과 같은 국제표준에서 제시하는 고등급 보안 및 안전 수준을 확보한 제품의 개발 및 평가 기술을 확보하기 위해 수행되었다.
