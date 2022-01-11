@@ -2,6 +2,7 @@
 
 # ChibiOS-based High-Assurance Operating System Project
 #### 관련 프로젝트 명: 고등급(EAL6 이상)보안 마이크로커널 개발
+https://img.shields.io/badge/-%EA%B3%A0%EB%93%B1%EA%B8%89(EAL6%20%EC%9D%B4%EC%83%81)%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%EA%B0%9C%EB%B0%9C-green
 ###### (영문 명: Development of High-Assurance(>=EAL6) Secure Microkernel)
 본 과제는 ISO 15408, IEC 61508과 같은 국제표준에서 제시하는 고등급 보안 및 안전 수준을 확보한 제품의 개발 및 평가 기술을 확보하기 위해 수행되었다.
 
