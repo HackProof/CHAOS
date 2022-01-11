@@ -45,7 +45,7 @@
   2. **위험원 분석 및 위험 평가(HARA, Hazard Analysis and Risk Assessment)**: 
 
 
-  - 설계<img src="https://img.shields.io/badge/-Isabelle%2FHOL%20(%EB%B3%B4%EC%95%88%EA%B8%B0%EB%8A%A5)-green">
+  - 설계<img src="https://img.shields.io/badge/-Isabelle%2FHOL%20(%EB%B3%B4%EC%95%88%EA%B8%B0%EB%8A%A5)-green"> <img src="https://img.shields.io/badge/-YAKINDDU%20(%EC%95%88%EC%A0%84%EA%B8%B0%EB%8A%A5)-yellowgreen"
   > 고등급 보안 및 안전수준을 확보하기 위해 국제 표준에서 요구하는 (준)정형 기법 기반의 도구를 활용한 CHAOS 세부 기능에 대한 설계 내역이 공개되어 있습니다.
   > 1. Isabelle/HOL (보안기능)
   > 2. YAKINDDU (안전기능)
