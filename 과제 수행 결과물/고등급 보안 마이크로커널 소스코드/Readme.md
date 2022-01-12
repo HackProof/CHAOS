@@ -1,4 +1,4 @@
-# CHAOS 소스코드 빌드 & 
+# CHAOS 소스코드 빌드 & 실행
 
 ## ChHAOS를 ardupilot과 함께 빌드
 
