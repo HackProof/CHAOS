@@ -3,7 +3,7 @@ ChibiOS - CHAOS
 
 ## ChibiOS를 ardupilot과 함께 빌드
 
-이 내용은 ArduPilot repo에서 submodule로 ChibiOS를 갖고 있을 때의 내용임.
+이 내용은 ArduPilot repo에서 submodule로 ChibiOS를 갖고 있을 때의 내용임.  
 즉, 아래 내용을 실행하기 위해서는 현재 repo가 아닌 ArduPilot repo 기준으로 진행해야 함.  
 
 ### 환경 설정
