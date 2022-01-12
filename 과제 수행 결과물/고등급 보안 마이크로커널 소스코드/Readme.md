@@ -5,7 +5,7 @@ ChibiOS - CHAOS
 
 이 내용은 ArduPilot repo에서 submodule로 ChibiOS를 갖고 있을 때의 내용임.
 
-## 환경 설정
+### 환경 설정
 ```bash
 git clone https://github.com/ArduPilot-CHAOS/ardupilot
 cd ardupilot
@@ -15,7 +15,7 @@ source ~/.profile
 ```
 
 
-## ChibiOS 및 ArduPilot 컴파일
+### ChibiOS 및 ArduPilot 컴파일
 ```bash
 cd ardupilot
 git submodule update --init --remote -- modules/ChibiOS
@@ -38,7 +38,7 @@ ChibiOS 컴파일 → ArduPilot 외부 모듈 컴파일 → ArduPilot 라이브�
 
 ## ChibiOS 시뮬레이터 및 따로 빌드
 
-드론에 올리지 않고 시뮬레이터로 확인 가능함.  
+드론에 올리지 않고 ChibiOS의 기능 동작 여부를 시뮬레이터로 확인 가능함.  
 아래 내용은 ChibiOS를 ArduPilot와 컴파일 하지 않고 진행 가능함.  
 ChibiOS만 따로 빌드하는 방법이기도 함  
 
