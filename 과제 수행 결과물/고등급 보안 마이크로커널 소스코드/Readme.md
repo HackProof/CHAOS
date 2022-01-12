@@ -37,7 +37,7 @@ ChibiOS 컴파일 → ArduPilot 외부 모듈 컴파일 → ArduPilot 라이브�
 (참고) https://intuitive-robotics.tistory.com/134
 
 
-## ChibiOS 시뮬레이터 및 따로 빌드
+## ChibiOS 시뮬레이터 빌드 (ArduPilot과 별도 빌드)
 
 드론에 올리지 않고 ChibiOS의 기능 동작 여부를 시뮬레이터로 확인 가능함.  
 아래 내용은 ChibiOS를 ArduPilot와 컴파일 하지 않고 진행 가능함.  
