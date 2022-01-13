@@ -19,7 +19,7 @@ git submodule update --init --remote -- modules/ChibiOS
 ./waf copter
 ```
 
-The example above shows how to build CHAOS for the `CubeOrange` board with ArduCopter from ArduPilot.  
+The example above shows how to build CHAOS for the `CubeOrange` board with ArduPilot.  
 The `copter` is the type of our drones.  
 
 You can write `CubeBlack` or `fmuv3` instead of the `CubeOrange` keyword.  
