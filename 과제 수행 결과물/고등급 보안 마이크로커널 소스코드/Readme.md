@@ -2,7 +2,7 @@
 
 ## How to build CHAOS with ArduPilot
 
-### Configuration
+### Set up the configuration
 ```bash
 git clone https://github.com/ArduPilot-CHAOS/ardupilot
 cd ardupilot
