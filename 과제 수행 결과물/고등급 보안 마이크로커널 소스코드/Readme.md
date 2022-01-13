@@ -29,16 +29,16 @@ If you'd like to see other available boards, please use the command below:
 ./waf list_boards
 ```
 
-The `./waf copter` command does the below processes:  
+The `./waf copter` command performs the following processes:  
 (1) Compiling CHAOS  
-(2) Compiling ArduPilot module  
+(2) Compiling ArduPilot modules  
 (3) Compiling ArduPilot libraries  
 
 Please note that the Waf build system will skip the processes which are successfully compiled before.  
 So, if some codes of CHAOS are modified, you should remove the `ardupilot/build` directory before running the Waf build command.  
 
 
-## CHAOS 시뮬레이터 빌드 (ArduPilot과 별도 빌드)
+## How to build CHOAS without ArduPilot
 
 드론에 올리지 않고 CHAOS의 기능 동작 여부를 시뮬레이터로 확인 가능함.  
 아래 내용은 CHAOS를 ArduPilot와 컴파일 하지 않고 진행 가능함.  
