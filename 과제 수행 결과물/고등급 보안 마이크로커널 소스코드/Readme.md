@@ -23,7 +23,7 @@ The example above shows how to build CHAOS for the `CubeOrange` board with ArduP
 The `copter` is the type of our drones.  
 
 You can write `CubeBlack` or `fmuv3` instead of the `CubeOrange` keyword.  
-Just for your information, `fmuv3` is for the original Pixhawk2 Cube board, `CubeBlack` for Pixhawk2.1 Cube black, and `CubeOrange` for Pixhawk2.1 Cube Orange.  
+`fmuv3` is for the original Pixhawk2 Cube board, `CubeBlack` for Pixhawk2.1 Cube black, and `CubeOrange` for Pixhawk2.1 Cube Orange.  
 If you'd like to see other available boards, please use the command below:  
 ```
 ./waf list_boards
@@ -36,6 +36,7 @@ The `./waf copter` command performs the following processes:
 
 Please note that the Waf build system will skip the processes which are successfully compiled before.  
 So, if some codes of CHAOS are modified, you should remove the `ardupilot/build` directory before running the Waf build command.  
+Or, you can use the `./waf clean` command.
 
 
 ## How to build CHOAS without ArduPilot
@@ -100,18 +101,21 @@ telnet 127.0.0.1 29001 # 29001 대신 29002도 가능
 test rt
 ```
 
-## ArduPilot → Drone (Pixhawk 2.1)
+## How to upload ArduPilot to drones (Pixhawk 2.1)
 
+You can use the Waf build system to upload the ArduPilot binary, which is compiled with CHAOS, to drones.  
 CHAOS가 포함된 ArduPilot을 드론에 올릴 때는 다음 절차를 거쳐야 함  
 Drone 보드가 컴퓨터랑 USB로 연결되어있어야 함  
 미리 Mission Planner나 QGroundControl 같은 프로그램을 통해서 usb driver 설치 권장  
 
-1. ./waf configure --board fmuv3
-2. ./waf copter
-3. ./waf --targets bin/arducopter --upload
+```bash
+./waf configure --board fmuv3
+./waf copter
+./waf --targets bin/arducopter --upload
+```
 
 
-## Issue
+## Issues
 make시 'sys/cdefs.h' not found 에러가 뜨면 다음과 같은 패키지 설치할 것  
 ```bash
 sudo apt install gcc-multilib g++-multilib
