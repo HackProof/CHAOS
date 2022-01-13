@@ -1,8 +1,8 @@
-# CHAOS 소스코드 빌드 & 실행
+# CHAOS Project
 
-## ChHAOS를 ardupilot과 함께 빌드
+## How to build CHAOS with ArduPilot
 
-### 환경 설정
+### Configuration
 ```bash
 git clone https://github.com/ArduPilot-CHAOS/ardupilot
 cd ardupilot
@@ -11,8 +11,7 @@ git submodule update --init --recursive
 source ~/.profile
 ```
 
-
-### CHAOS 및 ArduPilot 컴파일
+### Build CHAOS with ArduPilot
 ```bash
 cd ardupilot
 git submodule update --init --remote -- modules/ChibiOS
@@ -20,15 +19,24 @@ git submodule update --init --remote -- modules/ChibiOS
 ./waf copter
 ```
 
-CubeOrange 대신 CubeBlack 또는 fmuv3 입력 가능  
-fmuv3는 기존 drone board이다. (Pixhawk 2)  
-Pixhawk2가 아닌 Pixhawk 2.1인 경우에는 fmuv3 대신 CubeBlack 또는 CubeOrange를 입력해야 함!  
+The example above shows how to build CHAOS for the `CubeOrange` board with ArduCopter from ArduPilot.  
+The `copter` is the type of our drones.  
 
-./waf copter 명령은 다음 순서로 진행됨.  
-CHAOS 컴파일 → ArduPilot 외부 모듈 컴파일 → ArduPilot 라이브러리 코드 컴파일  
-한번 컴파일이 된 부분은 그 다음부터 컴파일을 스킵함.  
-따라서, 중간에 ChibiOS 소스가 변경되었다면, 반드시 ardupilot/build 폴더를 지우고 CHAOS 컴파일부터 다시 시작해야 함.  
-참고로 copter 역시 우리가 target하는 drone의 종류이다.  
+You can write `CubeBlack` or `fmuv3` instead of the `CubeOrange` keyword.  
+Just for your information, `fmuv3` is for the original Pixhawk2 Cube board, `CubeBlack` for Pixhawk2.1 Cube black, and `CubeOrange` for Pixhawk2.1 Cube Orange.  
+If you'd like to see other available boards, please use the command below:  
+```
+./waf list_boards
+```
+
+The `./waf copter` command does the below processes:  
+(1) Compiling CHAOS  
+(2) Compiling ArduPilot module  
+(3) Compiling ArduPilot libraries  
+
+Please note that the Waf build system will skip the processes which are successfully compiled before.  
+So, if some codes of CHAOS are modified, you should remove the `ardupilot/build` directory before running the Waf build command.  
+
 
 ## CHAOS 시뮬레이터 빌드 (ArduPilot과 별도 빌드)
 
