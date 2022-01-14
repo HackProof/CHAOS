@@ -36,6 +36,7 @@
   - 테스팅<img src="https://img.shields.io/badge/-Polyspace--Bugfinder%20(%EC%A0%95%EC%A0%81%EB%B6%84%EC%84%9D%20%EA%B4%80%EB%A0%A8%20%ED%85%8C%EC%8A%A4%ED%8C%85%20%EB%8F%84%EA%B5%AC)-yellow"> <img src="https://img.shields.io/badge/-American%20Fuzzy%20Lop%20(%EB%8F%99%EC%A0%81%EB%B6%84%EC%84%9D%20%EA%B4%80%EB%A0%A8%20%ED%85%8C%EC%8A%A4%ED%8C%85%20%EB%8F%84%EA%B5%AC)-orange"> 
   > 국제 표준에서 요구하는 테스팅 도구를 활용한 CHAOS에 대한 정적/동적 분석 결과가 공개되어 있습니다.
 
+
 ### [연구 수행 팀 구성 및 체계]
 
 ![Github_picture](https://user-images.githubusercontent.com/31889026/148824406-e297ecf0-a840-4f5b-af56-5ae94b2fb7c6.png)
