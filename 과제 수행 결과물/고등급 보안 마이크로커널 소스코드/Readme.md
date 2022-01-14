@@ -39,75 +39,43 @@ So, if some codes of CHAOS are modified, you should remove the `ardupilot/build`
 Or, you can use the `./waf clean` command.
 
 
-## How to build CHOAS without ArduPilot
+## How to build and run CHOAS without ArduPilot
+You can build CHAOS without ArduPilot.  
+In this case, a simulator or a demo application run on the CHAOS kernel.  
 
-드론에 올리지 않고 CHAOS의 기능 동작 여부를 시뮬레이터로 확인 가능함.  
-아래 내용은 CHAOS를 ArduPilot와 컴파일 하지 않고 진행 가능함.  
-CHAOS만 따로 빌드하는 방법이기도 함  
+### Set up the configuration
+- Ubuntu 18.04 64bit or 20.04 64bit (주의! WSL 1은 안됨 - 32 bit 프로그램 실행 불가)
+- GCC 7.4.0 or higher versions
 
-- 환경
-    - Ubuntu 18.04 64bit 또는 20.04 (주의! WSL 1은 안됨 - 32 bit 프로그램 실행 불가)
-    - ChibiOS 19.1.0
-    - GCC 7.4.0
-- 시뮬레이터 위치
-
+    
+### Build
 ```bash
 cd ChibiOS/demos/various/RT-Posix-Simulator
-```
-
-- 시뮬레이터 빌드
-
-    만약, CHAOS를 수정했다면 반드시 make를 통해 build해야 함.  
-    시뮬레이터의 main.c 파일 역시, 변경된 함수나 API에 맞게 수정해야 함.  
-    새로 빌드하는 경우에는 build 폴더 지우고 다시 빌드하는 것 추천
-
-```bash
 make
 ```
+Please note that this simulator refers to the `ChibiOS/demos/test/rt/source/test` directory.  
 
-- 시뮬레이터 테스트 코드 위치
 
-    CHAOS의 함수나 매크로 인자 등이 변경되면,
-    테스트 코드에서 호출하는 함수나 매크로를 변경해야 할 수도 있음.
-
-```bash
-cd ChibiOS/demos/test/rt/source/test
-```
-
-- 시뮬레이터 실행
-
-    build 디렉토리 내의 ch 파일이 곧 시뮬레이터 서버
-    자동으로 두개의 port에 대해 listen 상태로 넘어감 (29001, 29002)
-
+### Run
 ```bash
 cd CHAOS/demos/various/RT-Posix-Simulator/build
 ./ch
 ```
 
-- 시뮬레이터 접속
-
-    다른 콘솔에서 시뮬레이터 서버에 접속해야 함
-
+The simulator listens to two ports: 29001, 29002.  
+You can access the running simulator with the below command.
 ```bash
-telnet 127.0.0.1 29001 # 29001 대신 29002도 가능
+telnet 127.0.0.1 29001 # Also, 'telnet 127.0.0.1 29002' is OK
 ```
 
-- 시뮬레이터에서 테스트 실행
-
-    시뮬레이터 서버에 접속한 화면에서 test rt 명령어를 통해 기능 테스트
-    CHAOS의 기본적인 기능에 대해 충분히 체크 가능
-
-```bash
-test rt
-```
 
 ## How to upload ArduPilot to drones (Pixhawk 2.1)
 
 You can use the Waf build system to upload the ArduPilot binary, which is compiled with CHAOS, to drones.  
-CHAOS가 포함된 ArduPilot을 드론에 올릴 때는 다음 절차를 거쳐야 함  
-Drone 보드가 컴퓨터랑 USB로 연결되어있어야 함  
-미리 Mission Planner나 QGroundControl 같은 프로그램을 통해서 usb driver 설치 권장  
+It is highly recommended that you install `Mission Planner` or `QGroundControl` before uploading the ArduPilot, because these programs will install relevant drivers on your computers.  
 
+First, connect your drones to computers via USB.  
+Then, run the following commands.  
 ```bash
 ./waf configure --board fmuv3
 ./waf copter
@@ -116,7 +84,7 @@ Drone 보드가 컴퓨터랑 USB로 연결되어있어야 함
 
 
 ## Issues
-make시 'sys/cdefs.h' not found 에러가 뜨면 다음과 같은 패키지 설치할 것  
+If you run into various errors like `'sys/cdefs.h' not found`, you might have to install the following packages.  
 ```bash
 sudo apt install gcc-multilib g++-multilib
 ```
