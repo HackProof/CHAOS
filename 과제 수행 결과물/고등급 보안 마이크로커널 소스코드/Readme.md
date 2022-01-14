@@ -44,7 +44,8 @@ You can build CHAOS without ArduPilot.
 In this case, a simulator or a demo application run on the CHAOS kernel.  
 
 ### Set up the configuration
-- Ubuntu 18.04 64bit or 20.04 64bit (주의! WSL 1은 안됨 - 32 bit 프로그램 실행 불가)
+- Ubuntu 18.04 64bit or 20.04 64bit
+    -  Note: WSL 1 must be avoided, as the WSL cannot run 64 bit programs.
 - GCC 7.4.0 or higher versions
 
     
