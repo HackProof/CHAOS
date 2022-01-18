@@ -1,6 +1,5 @@
-
-# ChibiOS-based High-Assurance Operating System Project (CHAOS Project)
-## 프로젝트 개요
+## The CHAOS(ChibiOS-based High-Assurance Operating System) Project
+### 프로젝트 개요
 ####  &#160; &#160; 1. 관련 프로젝트 명
  &#160; &#160; &#160; &#160; &#160; &#160;고등급(EAL6 이상)보안 마이크로커널 개발 (Development of High-Assurance(>=EAL6) Secure Microkernel)
 ####  &#160; &#160;2. 프로젝트 수행 목적
