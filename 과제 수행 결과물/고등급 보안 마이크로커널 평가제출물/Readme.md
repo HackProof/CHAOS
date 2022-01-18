@@ -1,4 +1,4 @@
-# EAL6(SIL3) 수준의 주요 평가제출물 개발 방법론 개발
+# EAL6 및 SIL3 수준의 주요 평가제출물 개발 방법론 개발
 ![그림3](https://user-images.githubusercontent.com/31889026/149854606-92c0192e-5d82-4f47-96f9-f93008bfef75.png)
 <br>
 <br>
