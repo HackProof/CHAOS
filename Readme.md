@@ -15,7 +15,7 @@
  &#160; &#160; &#160; &#160; &#160; &#160;- [성균관대학교 김형식교수님 연구팀](https://seclab.skku.edu/) &#160; (총 19명) <br>
  &#160; &#160; &#160; &#160; &#160; &#160;- [연세대학교 차호정교수님 연구팀](https://mobed.yonsei.ac.kr/) &#160; (총 10명) <br>
 
-### [프로젝트 1단계 연구 결과물]
+### 프로젝트 1단계 연구 결과물
 
 - ✨과제 수행 결과물✨
   - [고등급 보안 마이크로커널 소스코드](https://github.com/HackProof/CHAOS/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C) &#160; <img src="https://img.shields.io/badge/-C%2FC%2B%2B-red">
