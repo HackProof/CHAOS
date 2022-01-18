@@ -1,4 +1,4 @@
-# CHAOS Project
+# CHAOS Source Code
 
 ## How to build CHAOS with ArduPilot
 
