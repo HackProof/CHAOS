@@ -24,13 +24,30 @@
 
 - ✨과제 수행 내역✨
   - 요구사항 &#160; <img src="https://img.shields.io/badge/-Microsoft%20Threat%20Modeling%20Tool-brightgreen">
-  > 위협 모델링(Threat Modeling) 또는 HARA(Hazard Analysis and Risk Analysis)와 같은 방법론을 활용한 CHAOS 보안기능/안전기능 요구사항
-
+  > 위협 모델링(Threat Modeling) 또는 HARA(Hazard Analysis and Risk Analysis)와 같은 방법론을 활용한 CHAOS 보안기능/안전기능 요구사항 도출 내역 <br>
+&#160;&#160;&#160;&#160; **[참조할 평가제출물]** <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 1. [보안성] 보안목표명세서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 2. [보안성] 보안정책모델 문서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 3. [안전성] SW 요구사항 안전성분석서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 4. [안전성] SW 안전기능 요구사항 명세서 <br>
   - 설계 &#160; <img src="https://img.shields.io/badge/-Isabelle%2FHOL%20(%EB%B3%B4%EC%95%88%EA%B8%B0%EB%8A%A5)-green"> <img src="https://img.shields.io/badge/-YAKINDDU%20(%EC%95%88%EC%A0%84%EA%B8%B0%EB%8A%A5)-yellowgreen">
-  > [Isabelle/HOL](https://isabelle.in.tum.de/)과 [YAKINDDU](https://www.itemis.com/en/yakindu/state-machine/)를 활용한 CHAOS 보안기능/안전기능 설계
+> [Isabelle/HOL](https://isabelle.in.tum.de/)과 [YAKINDDU](https://www.itemis.com/en/yakindu/state-machine/)를 활용한 CHAOS 보안기능/안전기능 설계
+  - &#160;&#160;&#160;&#160; **[참조할 평가제출물]** <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 1. [보안성] 기능명세서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 2. [보안성] 보안아키텍처 문서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 3. [안전성] TOE 설계서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 4. [안전성] SW 안전기능 설계명세서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 5. [안전성] SW 설계 안전성 분석보고서 <br>
+
   - 테스팅 &#160; <img src="https://img.shields.io/badge/-Polyspace--Bugfinder%20-yellow"> <img src="https://img.shields.io/badge/-American%20Fuzzy%20Lop(AFL)%20-orange"> 
   > [Polyspace Bugfinder](https://kr.mathworks.com/products/polyspace-bug-finder.html)와 [AFL](https://github.com/google/AFL)을 활용한 CHAOS에 대한 테스팅 결과 <br>
   > 실 환경에서의 정상 동작 여부를 점검하기 위해 자체 테스트 스크립트를 활용한 드론 테스팅 결과
+  - &#160;&#160;&#160;&#160; **[참조할 평가제출물]** <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 1. [보안성] 시험서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 2. [안전성] SW 단위 시험계획서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 3. [안전성] SW 코드 안전성 분석 보고서 <br>
 
-
-
+- 기타 &#160;
+  > 개발환경 및 활용도구 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 1. [보안성] 개발보안 문서 <br>
+&#160;&#160;&#160;&#160;&#160;&#160; 2. [보안성] 도구와 기법 문서 <br>
