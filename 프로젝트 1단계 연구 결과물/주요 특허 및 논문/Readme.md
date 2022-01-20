@@ -45,42 +45,42 @@
 
 ## 논문
 ####  &#160; &#160; [[SCI/E] Revisiting the Battery Level Indicator of Mobile Devices](https://link.springer.com/article/10.1007/s10617-021-09246-w)
- &#160; &#160; &#160; &#160; &#160;;급격하게 배터리 잔량이 줄어들어 시스템이 갑자기 종료되는 것을 방지하기 위한 새로운 배터리 상태 표시 방법을 제안한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; *급격하게 배터리 잔량이 줄어들어 시스템이 갑자기 종료되는 것을 방지하기 위한 새로운 배터리 상태 표시 방법을 제안한 논문* <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 논문지 명: Design Automation for Embedded Systems(IF: 3.815) <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 게재 연도: 2021.02.18 <br>
 
 ####  &#160; &#160; [SCI/E] CIA-Level Driven Secure SDLC Framework for Integrating Security into SDLC Process
- &#160; &#160; &#160; &#160; &#160; 개발사가 원하는 수준에 맞는 보안 개발 프로세스 및 주요 평가 제출물 양식을 도출하기 위한 프레임워크를 제안한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; *개발사가 원하는 수준에 맞는 보안 개발 프로세스 및 주요 평가 제출물 양식을 도출하기 위한 프레임워크를 제안한 논문* <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 논문지 명: Journal of Ambient Intelligence and Humanized Computing(IF: 7.104) <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 게재 연도: 2021.XX.XX <br>
 
 ####  &#160; &#160; [[SCI/E] Constraint Solving Approach to SchedulabilityAnalysis in Real-Time Systems](https://ieeexplore.ieee.org/document/8485678)
- &#160; &#160; &#160; &#160; &#160; SAT solving 기반의 스케줄링 예측 가능성 분석 방법을 제안한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; *SAT solving 기법을 활용하여 시스템에 대한 스케줄링 예측 가능성에 대해 분석한 논문* <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 논문지 명: IEEE Access(IF: 3.367) <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 게재 연도: 2018.10.08 <br>
 
 ####  &#160; &#160; [[SCI/E] Automatic prevention of buffer overflow vulnerability using candidate code generation](https://www.jstage.jst.go.jp/article/transinf/E101.D/12/E101.D_2018EDP7192/_article/-char/en)
- &#160; &#160; &#160; &#160; &#160; 버퍼 오버플로우 취약점을 탐지 및 대응하는 메커니즘을 제안한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; _버퍼 오버플로우 취약점을 탐지 및 대응하는 메커니즘을 제안한 논문_ <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 논문지 명: IEICE TRANSACTIONS on Information and Systems(IF: 0.559) <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 게재(발표) 연도: 2018.08.24 <br>
 
 ####  &#160; &#160; [[비-SCI(E)] CIA-Level 기반 보안내재화 개발 프레임워크](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10482853)
- &#160; &#160; &#160; &#160; &#160;  개발사가 원하는 수준에 맞는 보안 개발 프로세스 및 주요 평가 제출물 양식을 도출하기 위한 프레임워크에 대한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; _개발사가 원하는 수준에 맞는 보안 개발 프로세스 및 주요 평가 제출물 양식을 도출하기 위한 프레임워크에 대한 논문_ <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 논문지 명: 한국 정보보호학회 <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 게재 연도: 2020.10.01 <br>
 
 ####  &#160; &#160; [[비-SCI(E)] 고신뢰 드론 시스템을 위한 스케줄링 측면에서의 서비스 공격 완화 방안 연구](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002498544)
- &#160; &#160; &#160; &#160; &#160;  드론에 탑재되는 커널의 스케줄링 알고리즘을 정형 명세 및 검증한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; _드론에 탑재되는 커널의 스케줄링 알고리즘을 정형 명세 및 검증한 논문_ <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 논문지 명: 한국 정보보호학회 <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 게재 연도: 2019.08.01 <br>
 
 ####  &#160; &#160; [[국제 학술대회] FUMVar: A Practical Framework for Geenrating Fully-working and Unseen Malware Variants](https://dl.acm.org/doi/abs/10.1145/3412841.3442039)
- &#160; &#160; &#160; &#160; &#160; 멀웨어 탐지 기법을 우회할 수 있는 변종 멀웨어를 자동으로 생성하는 프레임워크를 제안한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; _멀웨어 탐지 기법을 우회할 수 있는 변종 멀웨어를 자동으로 생성하는 프레임워크를 제안한 논문_ <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 학술대회 명: SAC '21: Proceedings of the 36th Annual ACM Symposium on Applied Computing <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 발표 연도: 2021.03.22 <br>
 
 ####  &#160; &#160; [[국제 학술대회] BinTyper: Type Confusion Detection for C++ Binaries](https://www.blackhat.com/eu-20/briefings/schedule/#bintyper-type-confusion-detection-for-c-binaries-21351)
- &#160; &#160; &#160; &#160; &#160; 바이너리만을 활용하여 C/C++ 기반 프로그램 내 Type confusion 버그를 탐지할 수 있는 기술을 발표한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; _바이너리만을 활용하여 C/C++ 기반 프로그램 내 Type confusion 버그를 탐지할 수 있는 기술을 발표한 논문_ <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 학술대회 명: BlackHat Europe 2020 <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 발표 연도: 2020.12.10 <br>
 
@@ -100,11 +100,11 @@
  > &#160; &#160; &#160; &#160; ⦁  &#160; 발표 연도: 2020.10.02 <br>
 
 ####  &#160; &#160; [[국제 학술대회] Optimizing Energy Efficiency of Browsers in Energy-Aware Scheduling-enabled Mobile Devices](https://dl.acm.org/doi/10.1145/3300061.3345449)
- &#160; &#160; &#160; &#160; &#160; 기존의 스케줄링 알고리즘보다 배터리 소모량을 평균 17% 감소시킬 수 있는 새로운 스케줄링 알고리즘을 제안한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; _기존의 스케줄링 알고리즘보다 배터리 소모량을 평균 17% 감소시킬 수 있는 새로운 스케줄링 알고리즘을 제안한 논문_ <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 학술대회 명: The 25th Annual International onference on Mobile computing and Networking <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 발표 연도: 2019.10.24 <br>
 
 ####  &#160; &#160; [[국내 학술대회] 드론 마이크로 커널의 신뢰성을 위한 Control-flow integrity 기반 Checkpoint/Restart 메커니즘에 대한 연구](https://www.manuscriptlink.com/society/kiisc/conference/ciscw2020/programBook)
- &#160; &#160; &#160; &#160; &#160; 드론용 마이크로커널에 탑재할 수 있는 CFI 기반의 Checkpoint / Restart 메커니즘을 제안하고 이를 정형 명세 및 검증한 논문 <br>
+ &#160; &#160; &#160; &#160; &#160; _드론용 마이크로커널에 탑재할 수 있는 CFI 기반의 Checkpoint / Restart 메커니즘을 제안하고 이를 정형 명세 및 검증한 논문_ <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 학술대회 명: 한국정보보호학회 2020  <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 발표 연도: 2020.11.28 <br>
