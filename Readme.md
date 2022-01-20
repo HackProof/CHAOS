@@ -7,7 +7,7 @@
 ####  &#160; &#160;2. 프로젝트 수행 목적
  &#160; &#160; &#160; &#160; &#160; &#160;고등급(EAL6 이상) 보안 마이크로커널 개발 및 고등급 평가에서 요구되는 주요 평가제출물 작성 방법론 도출
  <br>
- <br>![그림2](https://user-images.githubusercontent.com/31889026/149855984-2b56ea77-bbd5-413c-bce0-3710c4ec8ce6.png)
+ <br>![그림1](https://user-images.githubusercontent.com/31889026/149855984-2b56ea77-bbd5-413c-bce0-3710c4ec8ce6.png)
 
 ####  &#160; &#160;3. 프로젝트 수행팀
  &#160; &#160; &#160; &#160; &#160; &#160;- [고려대학교 김승주교수님 연구팀](https://sites.google.com/view/seceng) &#160; (총 8명) <br>
@@ -22,6 +22,10 @@
   > 국제 표준에서 권장하는 기법과 도구를 활용하여 개발된 드론용 고등급 보안마이크로커널의 소스코드
   - [고등급 평가제출물](https://github.com/HackProof/CHAOS/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC)
   > 국제표준에서 고등급 보안 및 안전수준을 확보하는데 요구하는 사항에 따라 작성된 평가문서
+  - 주요 특허 및 논문
+  > 과제를 수행하며 출원 및 등록된 특허와 논문리스트
+
+
 
 - ✨과제 세부 수행 내역✨
   - 요구사항 &#160; <img src="https://img.shields.io/badge/-Microsoft%20Threat%20Modeling%20Tool-brightgreen">
@@ -46,7 +50,8 @@
 &#160;&#160;&#160;&#160;&#160;&#160; 2. [[안전성] SW 단위 시험계획서](https://github.com/HackProof/CHAOS/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC/%EC%95%88%EC%A0%84%EC%84%B1/%5B%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%5D%20SW%EB%8B%A8%EC%9C%84%EC%8B%9C%ED%97%98%EA%B3%84%ED%9A%8D%EC%84%9Cv2.pdf) <br>
 &#160;&#160;&#160;&#160;&#160;&#160; 3. [[안전성] SW 코드 안전성 분석 보고서](https://github.com/HackProof/CHAOS/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC/%EC%95%88%EC%A0%84%EC%84%B1/%5B%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%5D%20SW%EC%BD%94%EB%93%9C%EC%95%88%EC%A0%84%EC%84%B1%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9Cv2.pdff) <br>
 
-  - 기타 &#160;
-  > 개발환경 및 활용도구 <br>
-&#160;&#160;&#160;&#160;&#160;&#160; 1. [[보안성] 개발보안 문서](https://github.com/HackProof/CHAOS/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC/%EB%B3%B4%EC%95%88%EC%84%B1/%5B%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%5D%20%EA%B0%9C%EB%B0%9C%EB%B3%B4%EC%95%88%EB%AC%B8%EC%84%9C.pdf) <br>
+  - 개발환경 및 활용도구 <br>
+  > &#160;&#160;&#160;&#160;&#160;&#160; 1. [[보안성] 개발보안 문서](https://github.com/HackProof/CHAOS/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC/%EB%B3%B4%EC%95%88%EC%84%B1/%5B%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%5D%20%EA%B0%9C%EB%B0%9C%EB%B3%B4%EC%95%88%EB%AC%B8%EC%84%9C.pdf) <br>
 &#160;&#160;&#160;&#160;&#160;&#160; 2. [[보안성] 도구와 기법 문서](https://github.com/HackProof/CHAOS/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC/%EB%B3%B4%EC%95%88%EC%84%B1/%5B%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%5D%20%EB%8F%84%EA%B5%AC%EC%99%80%20%EA%B8%B0%EB%B2%95%20%EB%AC%B8%EC%84%9C.pdf) <br>
+  - 성능치 비교 <br>
+<br>![그림3]
