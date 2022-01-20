@@ -54,4 +54,5 @@
   > &#160;&#160;&#160;&#160;&#160;&#160; 1. [[보안성] 개발보안 문서](https://github.com/HackProof/CHAOS/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC/%EB%B3%B4%EC%95%88%EC%84%B1/%5B%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%5D%20%EA%B0%9C%EB%B0%9C%EB%B3%B4%EC%95%88%EB%AC%B8%EC%84%9C.pdf) <br>
 &#160;&#160;&#160;&#160;&#160;&#160; 2. [[보안성] 도구와 기법 문서](https://github.com/HackProof/CHAOS/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%201%EB%8B%A8%EA%B3%84%20%EC%97%B0%EA%B5%AC%20%EA%B2%B0%EA%B3%BC%EB%AC%BC/%EA%B3%A0%EB%93%B1%EA%B8%89%20%EB%B3%B4%EC%95%88%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90%20%ED%8F%89%EA%B0%80%EC%A0%9C%EC%B6%9C%EB%AC%BC/%EB%B3%B4%EC%95%88%EC%84%B1/%5B%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%5D%20%EB%8F%84%EA%B5%AC%EC%99%80%20%EA%B8%B0%EB%B2%95%20%EB%AC%B8%EC%84%9C.pdf) <br>
   - 성능치 비교 <br>
-<br>![그림3]
+  > CHAOS는 기존에 보고된 취약점 이외에도 최신 보안 취약점을 고려하여 개발되었기 때문에, **기존의 고등급 보안 마이크로커널보다 더 많은 보안기능 요구사항을 만족** <br>
+<br>![그림7](https://user-images.githubusercontent.com/31889026/150329582-e119d15b-c58b-4f04-993a-550b1c8c9982.png)
