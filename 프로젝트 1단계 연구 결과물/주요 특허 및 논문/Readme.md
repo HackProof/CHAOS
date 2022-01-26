@@ -1,5 +1,5 @@
 ## 특허
-####  &#160; &#160; [출원/U.S., PCT, 한국] SECURITY-BY-DESIGN METHODOLOGY USING EVIDENCE-BASED SECURITY APPROACH
+####  &#160; &#160; [출원/U.S., PCT, 한국] Security-by-design methodology using evidence-based security approach
  > &#160; &#160; &#160; &#160; ⦁  &#160; U.S. 특허 출원번호: 17/622,965 <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; PCT 특허 출원번호: PCT/KR2020/013835 <br>
  > &#160; &#160; &#160; &#160; ⦁  &#160; 국내 특허 출원번호: 10-2020-0130540 <br> 
